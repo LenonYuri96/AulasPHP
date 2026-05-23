@@ -1,0 +1,60 @@
+/* Estilos personalizados que complementam o Bootstrap */
+
+body {
+  background-color: #f5deb3; /* Cor de palha */
+}
+
+.menu-button {
+  font-weight: bold;
+  transition: all 0.3s;
+  border-radius: 20px !important;
+}
+
+.menu-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sair {
+  border-radius: 20px !important;
+  transition: all 0.3s;
+}
+
+#sair:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+  header {
+    margin-bottom: 50px !important;
+  }
+
+  .menu-button {
+    font-size: 1.5rem;
+    padding: 0.75rem !important;
+  }
+
+  footer {
+    margin-top: 50px !important;
+  }
+
+  footer .row {
+    flex-direction: column;
+    text-align: center !important;
+  }
+
+  footer .text-md-end {
+    text-align: center !important;
+  }
+
+  header div {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+
+  #sair {
+    width: 100% !important;
+  }
+}

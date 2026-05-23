@@ -1,0 +1,161 @@
+/* Adicionando estilo para o corpo do formulário */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  padding: 10px;
+  color: #fff;
+}
+
+.voltar-button,
+.sair-button {
+  padding: 8px;
+  background-color: #fff;
+  color: #3498db;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sair-button {
+  margin-left: 10px;
+}
+
+.voltar-button:hover,
+.sair-button:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/* Adicionando estilo para o h2 */
+.header h2 {
+  margin: 0; /* Remove a margem padrão do h2 */
+}
+
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-button,
+.delete-button,
+.insert-button {
+  /* Estilos comuns para os botões */
+  display: inline-block;
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.insert-button:hover {
+  /* Estilos ao passar o mouse para os botões */
+  background-color: #2980b9;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%; /* Ou qualquer largura desejada */
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Adicionando bordas arredondadas à tabela */
+  overflow: hidden; /* Garantindo que as bordas arredondadas sejam aplicadas corretamente */
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+  color: #3498db; /* Cor azul para o texto nas linhas pares */
+}
+
+tr:nth-child(odd) {
+  background-color: #3498db;
+  color: #fff; /* Cor branca para o texto nas linhas ímpares */
+}
+
+.form-container {
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  max-width: 20%;
+  margin: 20px auto; /* Centralizando verticalmente e horizontalmente */
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center; /* Alinhando o texto no centro */
+}
+
+input[type="date"] {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center; /* Alinhando o texto no centro */
+  color: rgb(27, 196, 27);
+}
+
+.insert-button {
+  /* Estilos específicos para o botão Inserir */
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Adicione o tamanho desejado da fonte */
+}
+
+.insert-button:hover {
+  /* Estilos ao passar o mouse para o botão Inserir */
+  background-color: #2980b9;
+}

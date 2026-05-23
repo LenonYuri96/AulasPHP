@@ -1,0 +1,190 @@
+body,
+html {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    background-image: url('../images/library-1147815_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+ul#menu-list {
+    padding-inline-start: 40px;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #003f72;
+    width: 100%;
+    /* Adiciona largura de 100% */
+    box-sizing: border-box;
+    /* Inclui padding e bordas na largura total */
+    margin: 0;
+}
+
+.navbar-container {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar-menu li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+h5 {
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #005ca9;
+}
+
+.containerBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+    /* Ocupa o espaço disponível restante */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #005ca9;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 30px auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.card-body ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.card-body li a:hover {
+    transition: 0.5s;
+    color: #ffffff;
+    background-color: #005ca9;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h5.card-text {
+    display: block;
+    margin-block-start: 20px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.card-text {
+    line-height: 2.5rem;
+}
+
+.card-text :last-child {
+    padding-top: 30px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+@media (max-width: 768px) {
+    ul#menu-list {
+        padding-inline-start: 0px;
+    }
+
+    .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 70vw;
+        max-width: 80vw;
+    }
+
+}
+
+
+
+
+
+
+.logo-senai {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    background-color: #003f72;
+}
+
+/* Estilos para o footer */
+footer {
+    padding: 20px;
+    background-color: #003f72;
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+    bottom: 0;
+}
+
+/* Estilos para o footer */
+header {
+    /* Reduzi o padding para 20px */
+    background-color: #003f72;
+    color: #fff;
+    font-weight: 900;
+}

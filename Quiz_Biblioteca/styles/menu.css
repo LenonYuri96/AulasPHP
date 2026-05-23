@@ -1,0 +1,113 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-size: 24px;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  background-image: url('../images/library-1147815_1920.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+  background-color: #003f72;
+  width: 100%;
+  /* Adiciona largura de 100% */
+  box-sizing: border-box;
+  /* Inclui padding e bordas na largura total */
+}
+
+.logo-senai {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+  background-color: #003f72;
+}
+
+/* Estilos para o header */
+header {
+  height: 100px;
+  padding: 30px;
+  /* Reduzi o padding para 20px */
+  background-color: #003f72;
+  color: #fff;
+}
+
+/* Estilos para o footer */
+footer {
+  height: 40px;
+  padding: 20px;
+  /* Reduzi o padding para 20px */
+  background-color: #003f72;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* Adicionando responsividade para celulares */
+@media (max-width: 767px) {
+
+  header,
+  footer {
+    height: auto;
+    /* Tornando a altura automática */
+    text-align: center;
+    /* Centralizando o texto */
+  }
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-sizing: border-box;
+  height: 60%;
+  width: 60%;
+  margin: auto;
+}
+
+.menu-button-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  margin-top: 10%;
+  text-align: center;
+  /* Centraliza o texto no container */
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #003f72;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.menu-button:hover {
+  background-color: #fff;
+  color: #003f72;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  position: relative;
+  height: 100%;
+  color: #003f72;
+}
